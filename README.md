@@ -45,10 +45,34 @@ lexibot_llm_streamlit/
    pip install -r requirements.txt
    ```
 
-3. **Run Streamlit App**:
+3. **Generate FAISS Vector**:
    ```bash
-   streamlit run app/interface.py
+   streamlit run app/ingest.py
    ```
+   
+## 🐳 Docker Setup
+
+You can containerize and run the Tonton FAQ Bot using Docker with the following steps:
+
+### 📦 1. Build the Docker Image
+
+Make sure you're in the root project directory (same level as the `Dockerfile`), then run:
+
+```bash
+docker build -t tonton-bot .
+```
+
+### ▶️ 2. Run the Container
+
+```bash
+docker run -p 8501:8501 tonton-bot
+```
+
+Once running, open your browser and go to:
+
+```
+http://localhost:8501
+```
 
 ---
 
