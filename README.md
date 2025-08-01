@@ -136,6 +136,17 @@ langchain-community
 
 ---
 
+# 📋 Example Questions That Can Be Asked
+
+- Kenapa lepas bayar aku tak boleh tengok cerita?
+- Aku dah langgan, tapi kenapa masih keluar iklan?
+- Macam mana nak batal langganan TontonUp setiap bulan?
+- Macam mana nak tukar password?
+- Boleh tak aku langgan kalau aku kat luar Malaysia?
+- Kenapa keluar error masa aku tengok Tonton?
+  
+---
+
 ## 📌 Notes
 
 - This project assumes the model is downloaded from HuggingFace or accessible locally.
