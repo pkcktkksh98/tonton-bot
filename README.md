@@ -37,6 +37,7 @@ lexibot_llm_streamlit/
    ```bash
    conda create -n tontonbot python=3.11
    conda activate tontonbot
+   cd tontonbot
    ```
 
 2. **Install Requirements**:
@@ -46,7 +47,7 @@ lexibot_llm_streamlit/
    
 3. **Generate FAISS Vector**:
    ```bash
-   streamlit run app/ingest.py
+   python app/ingest.py
    ```
    
 ## 🐳 Docker Setup
