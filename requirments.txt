@@ -1,0 +1,12 @@
+langchain
+faiss-cpu
+transformers
+sentence-transformers
+streamlit
+torch
+PyMuPDF
+llama-cpp-python
+tiktoken
+sentencepiece
+llama-index
+langchain-community
